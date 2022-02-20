@@ -2,7 +2,7 @@ import React from 'react';
 
 function Home(props) {
     return (
-        <section id="Home">
+        <section id="Home" style={{ padding: '8rem', width: 'auto' }}>
             <div data-aos="fade-right" data-aos-duration="1500">
                 <h4 className='fw-light'>Hi, my name is</h4>
             </div>
