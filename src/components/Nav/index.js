@@ -3,8 +3,8 @@ import resume from '../../assets/resume/resume.pdf';
 function Nav(props) {
     return (
         <header>
-            <nav className='d-flex align-items-center justify-content-between m-5'>
-                <a style={{ textDecoration: "none", color: "var(--light-color)", fontSize: "xxx-large", fontWeight: "bolder", fontFamily: "var(--main-font-family)" }} href="/">Gabriel Gallo Lopez</a>
+            <nav className='d-flex align-items-center justify-content-between m-5 mb-0 pb-3'>
+                <a style={{ textDecoration: "none", color: "var(--light-color)", fontSize: "larger", fontWeight: "bolder", fontFamily: "var(--main-font-family)" }} href="/">Gabriel Gallo Lopez</a>
                 <ul className="nav justify-content-end">
                     <li className="nav-item">
                         <a className="nav-link active text-light change" href="#">About Me</a>

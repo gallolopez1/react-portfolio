@@ -78,3 +78,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 https://nodejs.org/api/fs.html
 
 https://reactjs.org/
+
+https://www.npmjs.com/package/social-media-icons-react
+
+https://social-media-icons-react-editor.netlify.app/
