@@ -2,29 +2,29 @@ import React from 'react';
 
 function About(props) {
     return (
-        <section>
+        <section id="about">
             <p>
                 Hi! I am Gabriel but you can call me <b className="curious">Gallo</b>.
             </p>
-            <br></br>
+            <br />
             <p>
                 <b className="curious">Dog lover</b>, <b className="curious">bibliophile</b> and <b className="curious">gym
                     enthusiast</b>. Originally from the beautiful and vibrant city of Guadalajara, Mexico, where I studied <b className="curious">architecture</b> and graduated from
-                <a className="hyperlink" style="text-decoration: underline; color: #2e2e2e;" href="https://www.tec.mx/en">Tec de
+                <a className="hyperlink" style={{ textDecoration: "underline", color: "#2e2e2e" }} href="https://www.tec.mx/en">Tec de
                     Monterrey</a>.
             </p>
-            <br></br>
+            <br />
             <p>
                 I then started working as a freelancer, developing architectural concepts, schematic designs and a few websites. In 2020 I moved to the craziest of cities <b className="curious">(New York City)</b>, where I currently live and work as an
-                <b className="curious">architect designer</b> for <a className="hyperlink" style="text-decoration: underline; color: #2e2e2e;" href="https://www.rockwellgroup.com/">Rockwell Group</a>.
+                <b className="curious">architect designer</b> for <a className="hyperlink" style={{ textDecoration: "underline", color: "#2e2e2e" }} href="https://www.rockwellgroup.com/">Rockwell Group</a>.
             </p>
-            <br></br>
+            <br />
             <p>
-                At <a className="hyperlink" style="text-decoration: underline; color: #2e2e2e;" href="https://www.rockwellgroup.com/">Rockwell Group</a>, I have worked hand in hand with a diverse group of interior designers, architects and project managers
+                At <a className="hyperlink" style={{ textDecoration: "underline", color: "#2e2e2e" }} href="https://www.rockwellgroup.com/">Rockwell Group</a>, I have worked hand in hand with a diverse group of interior designers, architects and project managers
                 on multiple projects ranging in scale, scope and location. From <b className="curious">educational architecture</b>, to <b className="curious">mixed-use commercial developments</b>, I have found that I become impassioned with whatever project
                 I tackle.
             </p>
-            <br></br>
+            <br />
             <p>
                 My expertise is in the fields of <b className="curious">architecture</b> and <b className="curious">design</b> with some exposure to <b className="curious">web development</b>, however, my passion and desire to constantly learn and evolve take
                 me to explore new fields such as <b className="curious">finance</b> and <b className="curious">technology</b>.

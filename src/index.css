@@ -10,6 +10,11 @@
   color: var(--light-color);
 }
 
+html {
+  height: 100%;
+  border: solid var(--light-color) 1rem;
+}
+
 header {
   background-color: var(--main-bg-color);
   font-size: large;
@@ -41,8 +46,8 @@ body {
 }
 
 footer {
-  /* position: absolute;
-  bottom: 0; */
+  position: absolute;
+  bottom: 0;
   width: 100%;
   margin-bottom: 3vh;
   display: flex;
