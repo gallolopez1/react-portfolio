@@ -53,7 +53,7 @@ const Portfolio = ({ category }) => {
             category: 'web development',
             image: require('../../assets/img/web-development/Run Buddy/run-buddy.PNG'),
             url: "https://gallolopez1.github.io/run-buddy/",
-            repoUrl: "https://github.com/gallolopez1/run-buddy/blob/main/README.md",
+            repoUrl: "https://github.com/gallolopez1/run-buddy",
             description:
                 "A website that offers fitness training services."
         },
