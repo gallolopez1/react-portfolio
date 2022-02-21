@@ -69,7 +69,7 @@ const Portfolio = ({ category }) => {
                 <u>Web Development</u>
             </h3>
             <br />
-            <div className="row justify-content-center" >
+            <div className="row justify-content-center portfolio" >
                 {projects.map((project) => (
                     <div className='col-12 col-md-6 col-lg-3 m-2'>
                         <div className="card m-2 h-100" key={project.name}>

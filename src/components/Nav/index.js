@@ -4,7 +4,7 @@ function Nav({ currentPage, changePage }) {
     return (
         <header>
             <nav className=' media-nav d-flex align-items-center justify-content-between m-5 mb-0 pb-3 flex-wrap'>
-                <a onClick={() => changePage('Home')} style={{ textDecoration: "none", color: "var(--light-color)", fontSize: "larger", fontWeight: "bolder", fontFamily: "var(--main-font-family)" }} href="/">Gabriel Gallo Lopez</a>
+                <a style={{ textDecoration: "none", color: "var(--light-color)", fontSize: "larger", fontWeight: "bolder", fontFamily: "var(--main-font-family)" }} href="/">Gabriel Gallo Lopez</a>
                 <ul className="nav-list nav justify-content-end">
                     <li className="nav-item" data-aos="fade-down" data-aos-duration="500">
                         <a onClick={() => changePage('About')}
