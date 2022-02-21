@@ -4,9 +4,9 @@ import { SocialMediaIconsReact } from 'social-media-icons-react';
 function Footer() {
     return (
         <footer className='footer fixed-bottom text-center d-flex justify-content-center flex-column p-2'>
-            <div>
+            <div style={{ marginLeft: "5rem", marginRight: "5rem" }}>
                 <p>
-                    Designed and Built by Gabriel Gallo Lopez &copy; 2022
+                    Designed and Built by <br /> Gabriel Gallo Lopez &copy; 2022
                 </p>
             </div>
             <div className='justify-content-center'>

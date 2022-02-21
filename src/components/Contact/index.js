@@ -33,32 +33,32 @@ function Contact() {
         }
     };
     return (
-        <section className='m-5'>
-            <h1 data-testid="h1tag">Contact me</h1>
+        <section className='mt-5 mb-5 w-50 m-auto'>
+            <h1 data-testid="h1tag" data-aos="fade-right" data-aos-duration="1500">Contact me</h1>
             <br />
             <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
+                <div data-aos="fade-right" data-aos-duration="1000">
                     <label className="form-label" htmlFor="name">Name:</label>
                     <br />
                     <input type="text" className="form-control" name="name" defaultValue={name} onBlur={handleChange} />
                 </div>
-                <div>
+                <div data-aos="fade-right" data-aos-duration="800">
                     <label className="form-label" htmlFor="email">Email address:</label>
                     <br />
                     <input type="email" className="form-control" name="email" defaultValue={email} onBlur={handleChange} />
                 </div>
-                <div>
+                <div data-aos="fade-right" data-aos-duration="600">
                     <label className="form-label" htmlFor="message">Message:</label>
                     <br />
                     <textarea name="message" className="form-control" rows="5" defaultValue={message} onBlur={handleChange} />
                 </div>
                 {errorMessage && (
-                    <div>
+                    <div data-aos="fade-right" data-aos-duration="400">
                         <p className="error-text fw-light">{errorMessage}</p>
                     </div>
                 )}
                 <br />
-                <button className='btn btn-outline-light' data-testid="button" type="submit">Submit</button>
+                <button className='btn btn-outline-light change' data-testid="button" type="submit">Submit</button>
             </form>
         </section>
     );

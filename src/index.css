@@ -2,8 +2,8 @@
   --main-font-family: "Noto Sans", sans-serif;
   --light-color: #f8f9fa;
   --dark-color: #212529;
-  --main-bg-color: #e8985e;
-  --secondary-color: black;
+  --main-bg-color: #0c6291;
+  --secondary-color: #78ce92;
 }
 
 * {
@@ -17,6 +17,10 @@ header {
   /* border-bottom: 0.25rem solid var(--light-color); */
 }
 
+.active-nav {
+  color: var(--secondary-color);
+}
+
 .change:hover {
   color: var(--secondary-color) !important;
 }
@@ -25,12 +29,27 @@ header {
 }
 
 .curious {
-  color: #b33951;
+  color: #78ce92;
 }
 
 html {
   max-width: 100%;
   overflow-x: hidden;
+}
+
+.about-me {
+  padding-right: 20rem;
+  padding-left: 20rem;
+  text-align: justify;
+}
+
+.home {
+  padding: 8rem;
+  width: auto;
+}
+
+.home-h1 {
+  font-size: 4rem;
 }
 
 body {
@@ -41,6 +60,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--main-bg-color);
+  margin-bottom: 120px;
 }
 
 footer {
@@ -57,4 +77,23 @@ code {
   height: "2rem";
   width: 100%;
   object-fit: cover;
+}
+
+@media only screen and (max-width: 1170px) {
+  .about-me {
+    padding: 4rem;
+  }
+  .media-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .home {
+    margin-top: 4rem;
+    padding: 1rem;
+  }
 }

@@ -64,8 +64,8 @@ const Portfolio = ({ category }) => {
 
 
     return (
-        <section className='mt-5 mb-5' style={{ height: '100vh' }}>
-            <h3 className='text-center'>
+        <section className='mt-5 mb-5' style={{ height: '100vh' }} data-aos="fade-up" data-aos-duration="1600">
+            <h3 className='text-center' >
                 <u>Web Development</u>
             </h3>
             <br />
@@ -80,7 +80,7 @@ const Portfolio = ({ category }) => {
                             </div>
                             <div className='d-flex justify-content-between'>
                                 <a href={project.url} target="_blank" className="btn btn-primary m-2 btn-dark change2">View the project</a>
-                                {project.repoUrl ? <SocialMediaIconsReact borderColor="rgba(0,0,0,0.53)" borderWidth="0" borderStyle="solid" icon="github" iconColor="rgba(13,13,13,0.96)" backgroundColor="rgba(0,0,0,0)" iconSize="3" roundness="20%" url="https://some-website.com/my-social-media-url" size="54" /> : ""}
+                                {project.repoUrl ? <SocialMediaIconsReact borderColor="rgba(0,0,0,0.53)" borderWidth="0" borderStyle="solid" icon="github" iconColor="rgba(13,13,13,0.96)" backgroundColor="rgba(0,0,0,0)" iconSize="3" roundness="20%" url={project.repoUrl} size="54" /> : ""}
                             </div>
                         </div>
                     </div>
