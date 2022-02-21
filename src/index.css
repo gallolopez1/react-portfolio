@@ -96,7 +96,11 @@ code {
     flex-direction: column;
   }
   .home {
-    margin-top: 4rem;
+    margin-top: 1rem;
     padding: 1rem;
+  }
+  .contact {
+    margin-bottom: 2rem;
+    margin-top: 1rem !important;
   }
 }

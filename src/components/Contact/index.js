@@ -33,7 +33,7 @@ function Contact() {
         }
     };
     return (
-        <section className='mt-5 mb-5 w-50 m-auto'>
+        <section className='contact mt-5 mb-5 w-50 m-auto'>
             <h1 data-testid="h1tag" data-aos="fade-right" data-aos-duration="1500">Contact me</h1>
             <br />
             <form id="contact-form" onSubmit={handleSubmit}>
