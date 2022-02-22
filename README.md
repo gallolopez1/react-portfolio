@@ -9,7 +9,7 @@ Hello again and welcome to my portfolio!
 
 # <u> Portfolio Preview</u>
 
-#### Landing Page
+#### Home
 
 <img src="/src/assets/img/screenshots/home.jpg" alt="Landing Page" />
 
