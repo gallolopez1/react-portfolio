@@ -1,33 +1,29 @@
 # Portfolio
 
-Hello again, welcome to my portfolio!
+Hello again and welcome to my portfolio!
 
 ## Links
 
-- 🌎 [Live Github Page] (https://gallolopez1.github.io/Portfolio/)
-- 💾 [Repo (here)] (https://github.com/gallolopez1/Portfolio)
+- 🌎 [Live](https://gallolopez1.github.io/react-portfolio/)
+- 💾 [Repo](https://github.com/gallolopez1/react-portfolio)
 
 # <u> Portfolio Preview</u>
 
 #### Landing Page
 
-<img src="Assets\Images\1.PNG" alt="Landing Page" />
+<img src="/src/assets/img/screenshots/home.jpg" alt="Landing Page" />
 
 #### About Me
 
-<img src="Assets\Images\2.PNG" alt="About Me" />
+<img src="/src/assets/img/screenshots/about-me.jpg" alt="About Me" />
 
-#### Web Design Page
+#### Web Development
 
-<img src="Assets\Images\3.PNG" alt="Web Design" />
+<img src="/src/assets/img/screenshots/portfolio.jpg" alt="Web Design" />
 
-#### Architecture Page
+#### Contact Me
 
-<img src="Assets\Images\4.PNG" alt="Architecture" />
-
-#### Random Projects Page
-
-<img src="Assets\Images\5.PNG" alt="Random" />
+<img src="/src/assets/img/screenshots/contact.jpg" alt="Architecture" />
 
 ## <u> Challenge instructions:</u>
 
