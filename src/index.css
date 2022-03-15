@@ -79,6 +79,10 @@ code {
   object-fit: cover;
 }
 
+.portfolio {
+  padding-bottom: 10rem;
+}
+
 @media only screen and (max-width: 1170px) {
   .portfolio {
     padding-bottom: 10rem;

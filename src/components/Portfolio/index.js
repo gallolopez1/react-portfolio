@@ -6,6 +6,15 @@ const Portfolio = ({ category }) => {
 
     const [projects] = useState([
         {
+            name: 'KEEP',
+            category: 'web development',
+            image: require('../../assets/img/web-development/KEEP/keep.jpg'),
+            url: "https://ancient-depths-61432.herokuapp.com/",
+            repoUrl: "https://github.com/gallolopez1/keep",
+            description:
+                "Keep is a MERN stack app using GraphQL to track all of your To-Dos and all of your accomplishments. Simply sign up and use this app regardless of your device to keep track of all your tasks."
+        },
+        {
             name: 'The Hype',
             category: 'web development',
             image: require('../../assets/img/web-development/THE HYPE/the-hype.png'),
@@ -21,7 +30,7 @@ const Portfolio = ({ category }) => {
             url: "https://mloercher.github.io/flight-for-tonight/index.html",
             repoUrl: "https://github.com/gallolopez1/flight-for-tonight",
             description:
-                "The Hype is the newest website for today's trends. Login and you can post, edit and comment other posts in The Hype community!"
+                "We developed this app to free your sense of adventure! All of us love to travel and money shouldn't impede us from doing so. Therefore, no matter what your financial situation is, we will help you find a destination. Just type your budget, origin, departure date and get ready to discover your next journey!"
         },
         {
             name: 'Deincokwi',
@@ -29,7 +38,7 @@ const Portfolio = ({ category }) => {
             image: require('../../assets/img/web-development/Deincokwi/Deincokwi.png'),
             url: "https://www.deincokwi.com/",
             description:
-                "Deincokwi, a company founded in the city of Guadalajara, Jalisco, a leader in engineering and construction in the public and private sectors."
+                "Freelance web development for Deincokwi, a company founded in the city of Guadalajara, Jalisco, a leader in engineering and construction in the public and private sectors."
         },
         {
             name: 'Concept180',
@@ -37,25 +46,25 @@ const Portfolio = ({ category }) => {
             image: require('../../assets/img/web-development/Concept180/Concept180.PNG'),
             url: "https://www.concept180pv.com/",
             description:
-                "Residences designed to make the everyday extraordinary."
+                "Freelance web development for Applegate Realtors. Residences designed to make the everyday extraordinary."
         },
         {
-            name: 'Horiseon',
+            name: 'My First Online Portfolio',
             category: 'web development',
-            image: require('../../assets/img/web-development/Horiseon/Horiseon.PNG'),
-            url: "https://gallolopez1.github.io/coding-boot-camp-challenge-01/",
-            repoUrl: "https://github.com/gallolopez1/coding-boot-camp-challenge-01",
+            image: require('../../assets/img/web-development/Portfolio 01/portfolio01.jpg'),
+            url: "https://gallolopez1.github.io/Portfolio/",
+            repoUrl: "https://github.com/gallolopez1/Portfolio",
             description:
-                "Refactored existing webpage to make it accessible and to improve SEO."
+                "My first HTML + CSS portfolio featuring my work as an architect and web developer."
         },
         {
-            name: 'Run Buddy',
+            name: 'Weather Dashboard',
             category: 'web development',
-            image: require('../../assets/img/web-development/Run Buddy/run-buddy.PNG'),
-            url: "https://gallolopez1.github.io/run-buddy/",
-            repoUrl: "https://github.com/gallolopez1/run-buddy",
+            image: require('../../assets/img/web-development/Weather App/desktop-weather-dashboard.jpg'),
+            url: "https://gallolopez1.github.io/weather-dashboard/",
+            repoUrl: "https://github.com/gallolopez1/weather-dashboard",
             description:
-                "A website that offers fitness training services."
+                "A responsive app using API calls to retrieve weather data for cities."
         },
 
     ]);

@@ -20,15 +20,15 @@ function Nav({ currentPage, changePage }) {
                             Portfolio
                         </a>
                     </li>
-                    <li className="nav-item" data-aos="fade-down" data-aos-duration="1000">
+                    {/* <li className="nav-item" data-aos="fade-down" data-aos-duration="1000">
                         <a onClick={() => changePage('Contact')}
                             className={currentPage === 'Contact' ? "nav-link active text-success change" : "nav-link text-light change"}
                             href="#Contact">
                             Contact
                         </a>
-                    </li>
+                    </li> */}
                     <li className="nav-item" data-aos="fade-down" data-aos-duration="1500">
-                        <a className="nav-link btn btn-outline-light text-light change" rel="noreferrer" href={resume} target="_blank" rel="noreferrer noopener">Resume</a>
+                        <a className="nav-link btn btn-outline-light text-light change" rel="noreferrer noopener" href={resume} target="_blank">Resume</a>
                     </li>
                 </ul>
             </nav>

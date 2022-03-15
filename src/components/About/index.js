@@ -26,6 +26,12 @@ function About(props) {
                 <h4 className='text-wrap'>
                     My expertise is in the fields of <b className="curious">architecture</b> and <b className="curious">design</b> with some exposure to <b className="curious">web development</b>, however, my passion and desire to constantly learn and evolve take me to explore new fields such as <b className="curious">finance</b> and <b className="curious">technology</b>. Recently earned a certificate in full-stack development from Columbia University with newly developed skills in HTML, CSS,  JavaScript, Node.js, MySQL, React.js, and responsive web design.
                 </h4>
+                <br></br>
+                <div className='text-center'>
+                    <h4>
+                        Now that you know me, I would love to get to know you! Send me an <a style={{ textDecoration: "underline", textIndent: ".25em", color: "#e95262" }} href="mailto:gabrielgallo123@gmail.com"><b>email.</b></a>
+                    </h4>
+                </div>
             </div>
         </section >
 

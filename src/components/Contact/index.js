@@ -58,9 +58,10 @@ function Contact() {
                     </div>
                 )}
                 <br />
-                <button className='btn btn-outline-light change' data-testid="button" type="submit">Submit</button>
+                <button className='btn btn-outline-light change' data-testid="button" type="submit" onClick={() => window.location = 'mailto:gabrielgallo123@gmail.com'}>Submit</button>
             </form>
-        </section>
+
+        </section >
     );
 }
 
