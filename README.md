@@ -78,3 +78,5 @@ https://reactjs.org/
 https://www.npmjs.com/package/social-media-icons-react
 
 https://social-media-icons-react-editor.netlify.app/
+
+\*Npm run deploy to update React Portfolio
