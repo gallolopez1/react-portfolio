@@ -24,7 +24,8 @@ function About(props) {
                 </h4>
                 <br />
                 <h4 className='text-wrap text-justify fw-lighter'>
-                    My expertise is in the fields of <b className="curious">architecture</b> and <b className="curious">design</b> with some exposure to <b className="curious">web development</b>, however, my passion and desire to constantly learn and evolve take me to explore new fields such as <b className="curious">finance</b> and <b className="curious">technology</b>. Recently earned a certificate in full-stack development from Columbia University with newly developed skills in HTML, CSS,  JavaScript, Node.js, MySQL, React.js, and responsive web design.
+                    My expertise is in the fields of <b className="curious">architecture</b> and <b className="curious">design</b> with some exposure to <b className="curious">web development</b>, however, my passion and desire to constantly learn and evolve take me to explore new fields such as <b className="curious">finance</b> and <b className="curious">technology</b>. Recently earned a certificate in full-stack web development from Columbia University focused on gaining technical knowledge in HTML5, CSS3, Javascript, JQuery, Bootstrap, Node.js, MySQL, MongoDB, Express, Handelbars.js, and ReactJS.
+
                 </h4>
                 <br></br>
                 <div className='text-center'>
