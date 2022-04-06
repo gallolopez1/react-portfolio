@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.e026ce2b.css",
-    "main.js": "/react-portfolio/static/js/main.ae49a541.js",
+    "main.js": "/react-portfolio/static/js/main.e21bc3ea.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/Concept180.PNG": "/react-portfolio/static/media/Concept180.331ed125bf37afa24760.PNG",
     "static/media/Deincokwi.png": "/react-portfolio/static/media/Deincokwi.f0988a3ef5355bdc5f10.png",
@@ -9,16 +9,16 @@
     "static/media/the-hype.png": "/react-portfolio/static/media/the-hype.009a46d280f1a05ef220.png",
     "static/media/avatar.png": "/react-portfolio/static/media/avatar.61a15cdcdec0b5127f7b.png",
     "static/media/desktop-weather-dashboard.jpg": "/react-portfolio/static/media/desktop-weather-dashboard.b3d897d969bfbc9feb39.jpg",
-    "static/media/resume.pdf": "/react-portfolio/static/media/resume.b68722c8ae6e025ea3ba.pdf",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.5f6c3d15a80eaefa5b96.pdf",
     "static/media/keep.jpg": "/react-portfolio/static/media/keep.289189d8b759057779d1.jpg",
     "static/media/portfolio01.jpg": "/react-portfolio/static/media/portfolio01.6269a9333088d8d0e6e9.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.e026ce2b.css.map": "/react-portfolio/static/css/main.e026ce2b.css.map",
-    "main.ae49a541.js.map": "/react-portfolio/static/js/main.ae49a541.js.map",
+    "main.e21bc3ea.js.map": "/react-portfolio/static/js/main.e21bc3ea.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e026ce2b.css",
-    "static/js/main.ae49a541.js"
+    "static/js/main.e21bc3ea.js"
   ]
 }
